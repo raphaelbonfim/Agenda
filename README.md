@@ -8,7 +8,7 @@ Para executar o projeto angular:
         ou
     npm start
 
-Na pasta backend
+Na pasta backend:
     Para instalar digite o comando:
     npm install
         ou
