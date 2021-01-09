@@ -1,0 +1,16 @@
+{
+  "Contacts": [
+    {
+      "name": "",
+      "address": "",
+      "phone": null,
+      "id": 1
+    },
+    {
+      "name": "Raphael Bonfim Fernandes",
+      "address": "Radadwc adawda",
+      "phone": "12313",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Alterar Contato</mat-card-title>
+</mat-card>
+<form>
+    <mat-form-field>
+        <input matInput placeholder="Nome" [(ngModel)]="contact.name" name = "name">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Telefone" [(ngModel)]="contact.phone" name= "phone">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Endereço" [(ngModel)]="contact.address" name = "address">
+    </mat-form-field>
+</form>
+<button mat-raised-button (click)="updateContact()" color="primary">
+    Atualizar
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>
